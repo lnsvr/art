@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/016/175/174/large/tessa-wessels-artist-s-studio-03-tessa-wessels.jpg?1551198657);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 733px;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.nav ul {
+    list-style: none;
+    padding: 40px;
+}
+
+.nav li {
+    display: inline;
+    margin: 100px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 500px;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.wrap {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 100px;
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.wrap2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.wrap h1 {
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.wrap p {
+    font-size: 32px;
+    position: relative;
+    margin-top: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="block1">
+            <div class="shadow-bar"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="artt.html">Home</a></li>
+                    <li><a href="gallery.html">Catalog</a></li>
+                    <li><a href="cart.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <hr>
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="p orange"><h1>Art Studio.</h1></div>
+    </div>
+
+    <div class="wrap2">
+        <a href="information.html" class="btn">Make an order</a>
+    </div>
+
+</body>
+
+</html>
